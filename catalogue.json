@@ -1,0 +1,1073 @@
+{
+  "project": "CMAIR-OS",
+  "meaning": "Cardputer MStack But AI",
+  "catalogueVersion": 1,
+  "totalApps": 106,
+  "notes": [
+    "MLC is the exact media-player name.",
+    "App names are not prefixed with AIR.",
+    "Planned does not mean implemented."
+  ],
+  "apps": [
+    {
+      "id": "desktop",
+      "name": "Desktop",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "app-store",
+      "name": "App Store",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "notifications",
+      "name": "Notifications",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "profiles",
+      "name": "Profiles",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "device-manager",
+      "name": "Device Manager",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "updates",
+      "name": "Updates",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "plugin-manager",
+      "name": "Plugin Manager",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "help",
+      "name": "Help",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "task-manager",
+      "name": "Task Manager",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "file-manager",
+      "name": "File Manager",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "system-monitor",
+      "name": "System Monitor",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "backup-and-restore",
+      "name": "Backup and Restore",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "mail",
+      "name": "Mail",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "browser",
+      "name": "Browser",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "chat",
+      "name": "Chat",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "maps",
+      "name": "Maps",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "web-server",
+      "name": "Web Server",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "sync",
+      "name": "Sync",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "qr-scanner",
+      "name": "QR Scanner",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "network-tools",
+      "name": "Network Tools",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "contacts",
+      "name": "Contacts",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "password-manager",
+      "name": "Password Manager",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "clipboard",
+      "name": "Clipboard",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "translator",
+      "name": "Translator",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "remote-desktop",
+      "name": "Remote Desktop",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "mlc",
+      "name": "MLC",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "beat-pad",
+      "name": "Beat Pad",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "piano",
+      "name": "Piano",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "offline-radio",
+      "name": "Offline Radio",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "sound-recorder",
+      "name": "Sound Recorder",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "voice-memos",
+      "name": "Voice Memos",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "music-library",
+      "name": "Music Library",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "image-viewer",
+      "name": "Image Viewer",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "video-library",
+      "name": "Video Library",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "audio-visualizer",
+      "name": "Audio Visualizer",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "equalizer",
+      "name": "Equalizer",
+      "category": "Music, audio and media",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "paint",
+      "name": "Paint",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "sprite-studio",
+      "name": "Sprite Studio",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "animation-studio",
+      "name": "Animation Studio",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "wallpaper-studio",
+      "name": "Wallpaper Studio",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "icon-maker",
+      "name": "Icon Maker",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "acard-studio",
+      "name": "ACard Studio",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "scratch-converter",
+      "name": "Scratch Converter",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "uiflow-converter",
+      "name": "UIFlow Converter",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "python-importer",
+      "name": "Python Importer",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "code-editor",
+      "name": "Code Editor",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "developer-tools",
+      "name": "Developer Tools",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "game-maker",
+      "name": "Game Maker",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "pixel-art-editor",
+      "name": "Pixel Art Editor",
+      "category": "Creativity and programming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "games",
+      "name": "Games",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "uno",
+      "name": "UNO",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "chess",
+      "name": "Chess",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "checkers",
+      "name": "Checkers",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "solitaire",
+      "name": "Solitaire",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "snake",
+      "name": "Snake",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "tetris",
+      "name": "Tetris",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "minesweeper",
+      "name": "Minesweeper",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "sudoku",
+      "name": "Sudoku",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "pong",
+      "name": "Pong",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "memory",
+      "name": "Memory",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "trivia",
+      "name": "Trivia",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "fortune-teller",
+      "name": "Fortune Teller",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "digital-pet",
+      "name": "Digital Pet",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "game-centre",
+      "name": "Game Centre",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "emulators",
+      "name": "Emulators",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "dosbox",
+      "name": "DOSBox",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "calculator",
+      "name": "Calculator",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "clock",
+      "name": "Clock",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "stopwatch",
+      "name": "Stopwatch",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "timer",
+      "name": "Timer",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "world-clock",
+      "name": "World Clock",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "keyboard-test",
+      "name": "Keyboard Test",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "keyboard",
+      "name": "Keyboard",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "battery-monitor",
+      "name": "Battery Monitor",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "storage-manager",
+      "name": "Storage Manager",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "system-information",
+      "name": "System Information",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "diagnostics",
+      "name": "Diagnostics",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "automation",
+      "name": "Automation",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "file-compression",
+      "name": "File Compression",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "file-extraction",
+      "name": "File Extraction",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "universal-remote",
+      "name": "Universal Remote",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "ir-remote",
+      "name": "IR Remote",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "network-remote",
+      "name": "Network Remote",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "bluetooth",
+      "name": "Bluetooth",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "usb-tools",
+      "name": "USB Tools",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "stream",
+      "name": "Stream",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "remote-input",
+      "name": "Remote Input",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "device-link",
+      "name": "Device Link",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "wi-fi-share",
+      "name": "Wi-Fi Share",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "device-discovery",
+      "name": "Device Discovery",
+      "category": "Remote control and connectivity",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "ai-assistant",
+      "name": "AI Assistant",
+      "category": "AI tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "ai-chat",
+      "name": "AI Chat",
+      "category": "AI tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "ai-notes",
+      "name": "AI Notes",
+      "category": "AI tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "ai-code-helper",
+      "name": "AI Code Helper",
+      "category": "AI tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "ai-translator",
+      "name": "AI Translator",
+      "category": "AI tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "ai-search",
+      "name": "AI Search",
+      "category": "AI tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "ai-voice",
+      "name": "AI Voice",
+      "category": "AI tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "offline-ai",
+      "name": "Offline AI",
+      "category": "AI tools",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    }
+  ]
+}
