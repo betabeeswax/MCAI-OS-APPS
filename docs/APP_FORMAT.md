@@ -36,7 +36,7 @@ The runtime validates the format, app ID, target, required fields and numeric li
 
 ## Catalogue entry
 
-An installable entry must use `status: "available"` and include:
+A native firmware entry may use `status: "builtin"` when it launches an app already included in the firmware. An installable entry must use `status: "available"` and include:
 
 - `package.format`: `mcai-app-v1`
 - `package.url`: HTTPS URL to the raw JSON package
