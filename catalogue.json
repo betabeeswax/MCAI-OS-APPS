@@ -2,7 +2,7 @@
   "project": "CMAIR-OS",
   "meaning": "Cardputer MStack But AI",
   "catalogueVersion": 1,
-  "totalApps": 107,
+  "totalApps": 108,
   "notes": [
     "MLC is the exact media-player name.",
     "App names are not prefixed with AIR.",
@@ -116,6 +116,15 @@
         "desktop"
       ],
       "status": "planned"
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "builtin"
     },
     {
       "id": "file-manager",
