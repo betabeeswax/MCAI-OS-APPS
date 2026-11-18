@@ -2,7 +2,7 @@
   "project": "CMAIR-OS",
   "meaning": "Cardputer MStack But AI",
   "catalogueVersion": 1,
-  "totalApps": 106,
+  "totalApps": 107,
   "notes": [
     "MLC is the exact media-player name.",
     "App names are not prefixed with AIR.",
@@ -1068,6 +1068,21 @@
         "desktop"
       ],
       "status": "planned"
+    },
+    {
+      "id": "tap-counter",
+      "name": "Tap Counter",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "available",
+      "package": {
+        "format": "mcai-app-v1",
+        "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/tap-counter/app.json",
+        "sha256": "1979ca3f5f9f2558a92753dcba0156e7b82d9186163f90b51f6b992451a03d97",
+        "sizeBytes": 192
+      }
     }
   ]
 }
