@@ -1,0 +1,42 @@
+name: Validate app repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate catalogue and manifests
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          catalogue = json.loads(Path("catalogue.json").read_text(encoding="utf-8"))
+          apps = catalogue["apps"]
+          assert catalogue["totalApps"] == len(apps), "totalApps does not match apps array"
+          ids = [app["id"] for app in apps]
+          assert len(ids) == len(set(ids)), "duplicate app IDs"
+          allowed_status = {"planned", "experimental", "available", "deprecated"}
+          allowed_targets = {"cardputer-adv", "desktop"}
+          for app in apps:
+              assert app["status"] in allowed_status, f"invalid status: {app['id']}"
+              assert set(app["targets"]) <= allowed_targets, f"invalid target: {app['id']}"
+          schema = json.loads(Path("schema/app-manifest.schema.json").read_text(encoding="utf-8"))
+          example = json.loads(Path("examples/hello-cardputer/manifest.json").read_text(encoding="utf-8"))
+          assert example["schemaVersion"] == schema["properties"]["schemaVersion"]["const"]
+          assert example["id"] in ids or example["status"] == "planned"
+          print(f"Validated {len(apps)} catalogue entries and starter manifest.")
+          PY
