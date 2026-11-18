@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "hello-cardputer",
+  "name": "Hello Cardputer",
+  "version": "0.1.0",
+  "description": "A starter metadata package for demonstrating the MCAI-OS app format.",
+  "publisher": "MCAI-OS community",
+  "targets": [
+    "cardputer-adv"
+  ],
+  "status": "planned",
+  "permissions": [],
+  "entrypoints": {}
+}
