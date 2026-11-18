@@ -1,0 +1,8 @@
+*.zip
+*.bin
+*.elf
+*.map
+build/
+dist/
+.DS_Store
+Thumbs.db
