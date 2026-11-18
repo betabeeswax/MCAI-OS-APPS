@@ -34,20 +34,18 @@
       "name": "App Store",
       "category": "System and desktop",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "settings",
       "name": "Settings",
       "category": "System and desktop",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "notifications",
@@ -124,10 +122,9 @@
       "name": "File Manager",
       "category": "System and desktop",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "terminal",
@@ -614,10 +611,9 @@
       "name": "Snake",
       "category": "Games and gaming",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "tetris",
@@ -734,20 +730,18 @@
       "name": "Calculator",
       "category": "Device tools",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "clock",
       "name": "Clock",
       "category": "Device tools",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "stopwatch",
@@ -764,10 +758,9 @@
       "name": "Timer",
       "category": "Device tools",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "alarm",
@@ -804,10 +797,9 @@
       "name": "Keyboard Test",
       "category": "Device tools",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "keyboard",
@@ -834,30 +826,27 @@
       "name": "Storage Manager",
       "category": "Device tools",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "system-information",
       "name": "System Information",
       "category": "Device tools",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "diagnostics",
       "name": "Diagnostics",
       "category": "Device tools",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "automation",
