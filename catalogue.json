@@ -1081,7 +1081,7 @@
         "format": "mcai-app-v1",
         "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/tap-counter/app.json",
         "sha256": "1979ca3f5f9f2558a92753dcba0156e7b82d9186163f90b51f6b992451a03d97",
-        "sizeBytes": 192
+        "sizeBytes": 196
       }
     }
   ]
