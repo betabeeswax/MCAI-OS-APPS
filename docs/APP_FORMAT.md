@@ -1,74 +1,66 @@
-# MCAI-OS App Package Format (draft 1)
+# MCAI-OS App Package Format
 
-This document defines the first metadata/package contract for MCAI-OS apps. It is a draft: the firmware and desktop app runtimes do not yet load third-party packages.
+This document defines the first installable Cardputer package format: **mcai-app-v1**.
 
-## Package layout
+## Package structure
 
-A published app should use this layout:
+Each app is a standalone UTF-8 JSON file published at a stable HTTPS URL. The catalogue entry supplies the URL, exact byte length and SHA-256 digest. The Cardputer downloads the file, checks the digest, validates the package identity and target, then saves it to the microSD card.
 
+Example:
+
+```json
+{
+  "format": "mcai-app-v1",
+  "id": "tap-counter",
+  "name": "Tap Counter",
+  "version": "1.0.0",
+  "target": "cardputer-adv",
+  "ui": {
+    "title": "Tap Counter",
+    "subtitle": "Press ENTER to count",
+    "initial": 0,
+    "increment": 1
+  }
+}
 ```
-my-app/
-  manifest.json
-  README.md
-  icon.png
-  cardputer/       # optional Cardputer ADV implementation
-  desktop/         # optional desktop implementation
-  assets/          # optional data, images and sounds
-  tests/           # optional automated tests
-```
 
-Keep each app in its own folder or release asset. Do not put credentials, API keys, private user data or device secrets in an app package.
+## Supported runtime API (v1)
 
-## Manifest
+The first Cardputer runtime is intentionally declarative: packages contain data, not native machine code or scripts. The current API supports:
+- A title and short instruction line.
+- An integer value with a bounded initial value.
+- A bounded increment action triggered by Enter.
+- Backspace to return to the App Store.
 
-Every app must include `manifest.json`. Validate it against [the JSON Schema](../schema/app-manifest.schema.json).
+The runtime validates the format, app ID, target, required fields and numeric limits. Unknown formats and targets are rejected. Apps cannot directly access hardware, files, network, memory or other apps.
 
-Required fields:
-- `schemaVersion`: manifest schema version (currently `1`).
-- `id`: stable lowercase ID using letters, numbers and hyphens.
-- `name`: display name.
-- `version`: semantic version.
-- `description`: short explanation.
-- `publisher`: maintainer or organization.
-- `targets`: one or more supported targets.
-- `status`: `planned`, `experimental`, `available` or `deprecated`.
+## Catalogue entry
 
-Optional `permissions` are capabilities requested by the app. The OS must ask the user before granting sensitive capabilities. A manifest declaration is a request, not automatic permission.
+An installable entry must use `status: "available"` and include:
 
-## Target identifiers
+- `package.format`: `mcai-app-v1`
+- `package.url`: HTTPS URL to the raw JSON package
+- `package.sha256`: lowercase SHA-256 of the exact package bytes
+- `package.sizeBytes`: exact package size
 
-- `cardputer-adv`
-- `desktop`
+Do not set an app to `available` until its package exists, its hash matches and its supported target has passed tests. Planned entries must not show an Install action.
 
-Only list a target when the package actually contains a working implementation for it.
+## Install and launch
 
-## Permissions
+1. Fetch the catalogue over HTTPS.
+2. Require a supported package format, HTTPS URL and 64-character SHA-256.
+3. Download with a strict size limit.
+4. Verify SHA-256 before parsing or writing.
+5. Validate package ID and target against the selected catalogue entry.
+6. Save to `/sdcard/MCAI-OS/apps/<id>.json`.
+7. Parse and validate again when launching.
 
-Use the smallest possible set:
-- `storage.read`
-- `storage.write`
-- `network`
-- `bluetooth`
-- `audio.input`
-- `audio.output`
-- `camera`
-- `microphone`
-- `ir`
-- `notifications`
+The current Cardputer runtime stores packages on microSD and only executes the built-in declarative operations listed above. It does not run downloaded native binaries.
 
-Unsupported permissions must be rejected by the runtime, not silently granted.
+## Security and compatibility
 
-## Packaging and installation
-
-The planned distribution format is a ZIP archive containing the app folder. A future App Store/client will read the manifest, verify package integrity, check target compatibility and request permissions before installation.
-
-Until package signature verification and a sandboxed runtime exist, only install apps from sources you trust. Do not treat a ZIP or manifest as safe merely because it appears in this repository.
-
-## Compatibility and status
-
-- `planned`: roadmap entry only; no installable app.
-- `experimental`: code exists but is incomplete or not fully tested.
-- `available`: working implementation exists for the listed target(s), with build/test instructions.
-- `deprecated`: no longer recommended.
-
-A successful desktop build does not prove Cardputer hardware compatibility. Hardware claims must include the exact board revision and a physical test procedure.
+- HTTPS certificate validation is required.
+- A checksum detects corruption or an unexpected file; it is not a publisher signature.
+- Only publish packages from the official MCAI-OS-APPS repository.
+- Never include credentials, API keys or private user data.
+- Hardware-specific functionality requires physical testing on the named Cardputer ADV revision.
