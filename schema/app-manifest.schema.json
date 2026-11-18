@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://betabeeswax.github.io/MCAI-OS-APPS/schema/app-manifest.schema.json",
+  "title": "MCAI-OS App Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "version",
+    "description",
+    "publisher",
+    "targets",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 64
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\\\d*)\\\\.(0|[1-9]\\\\d*)\\\\.(0|[1-9]\\\\d*)(?:-[0-9A-Za-z.-]+)?(?:\\\\+[0-9A-Za-z.-]+)?$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "cardputer-adv",
+          "desktop"
+        ]
+      }
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "experimental",
+        "available",
+        "deprecated"
+      ]
+    },
+    "permissions": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "storage.read",
+          "storage.write",
+          "network",
+          "bluetooth",
+          "audio.input",
+          "audio.output",
+          "camera",
+          "microphone",
+          "ir",
+          "notifications"
+        ]
+      }
+    },
+    "entrypoints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cardputer": {
+          "type": "string"
+        },
+        "desktop": {
+          "type": "string"
+        }
+      }
+    },
+    "repository": {
+      "type": "string",
+      "format": "uri"
+    },
+    "license": {
+      "type": "string"
+    }
+  }
+}
