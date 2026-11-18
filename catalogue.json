@@ -1076,7 +1076,7 @@
       "targets": [
         "cardputer-adv"
       ],
-      "status": "available",
+      "status": "experimental",
       "package": {
         "format": "mcai-app-v1",
         "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/tap-counter/app.json",
