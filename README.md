@@ -4,14 +4,14 @@ The official app catalogue and app-package repository for [MCAI-OS](https://gith
 
 ## What's here
 
-- `catalogue.json` — the shared 106-entry roadmap copied from the main MCAI-OS repository.
+- `catalogue.json` — the shared 108-entry roadmap copied from the main MCAI-OS repository.
 - `schema/app-manifest.schema.json` — JSON Schema for app metadata.
 - `docs/APP_FORMAT.md` — package layout, targets, permissions and publishing rules.
 - `apps/tap-counter/app.json` — the first installable Cardputer ADV app package.
 
 ## Important status note
 
-The catalogue is a roadmap, not a claim that every app is available. Entries remain `planned` until working app code, target support and tests are published. This repository now includes the first installable `mcai-app-v1` Cardputer package (Tap Counter). The Cardputer firmware downloads it over HTTPS, verifies SHA-256, stores it on microSD and runs it through a restricted declarative runtime. Most of the 106 roadmap apps remain planned.
+The catalogue is a roadmap, not a claim that every app is available. Entries remain `planned` until working app code, target support and tests are published. This repository now includes the first installable `mcai-app-v1` Cardputer package (Tap Counter). The Cardputer firmware downloads it over HTTPS, verifies SHA-256, stores it on microSD and runs it through a restricted declarative runtime. The catalogue currently marks 11 native Cardputer apps as built-in, Tap Counter as experimental/installable, and the remaining roadmap entries as planned. The Notes app supports separate editable text files on microSD. Status labels are intentionally conservative: a planned app is not presented as installable.
 
 ## Targets
 
