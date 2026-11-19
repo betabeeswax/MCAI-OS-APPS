@@ -2,7 +2,7 @@
   "project": "MCAI-OS",
   "meaning": "M5Stack Cardputer but AI",
   "catalogueVersion": 1,
-  "totalApps": 114,
+  "totalApps": 116,
   "notes": [
     "MLC is the exact media-player name.",
     "App names are not prefixed with AIR.",
@@ -1164,6 +1164,24 @@
         "sizeBytes": 228,
         "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/lucky-seven/app.json"
       }
+    },
+    {
+      "id": "speed-test",
+      "name": "Speed Test",
+      "category": "Internet and communication",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "builtin"
+    },
+    {
+      "id": "os-updater",
+      "name": "OS Updater",
+      "category": "System and desktop",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "builtin"
     }
   ]
 }
