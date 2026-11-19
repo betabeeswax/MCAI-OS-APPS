@@ -1,0 +1,1 @@
+{"format":"mcai-app-v1","id":"coin-flip","name":"Coin Flip","version":"1.0.0","target":"cardputer-adv","ui":{"title":"Coin Flip","subtitle":"Flip a virtual coin","initial":0,"increment":1,"game":"coin"}}
