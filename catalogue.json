@@ -2,7 +2,7 @@
   "project": "MCAI-OS",
   "meaning": "M5Stack Cardputer but AI",
   "catalogueVersion": 1,
-  "totalApps": 116,
+  "totalApps": 121,
   "notes": [
     "MLC is the exact media-player name.",
     "App names are not prefixed with AIR.",
@@ -1182,6 +1182,56 @@
         "cardputer-adv"
       ],
       "status": "builtin"
+    },
+    {
+      "id": "breakout",
+      "name": "Breakout",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "tic-tac-toe",
+      "name": "Tic-Tac-Toe",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "rock-paper-scissors",
+      "name": "Rock Paper Scissors",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2048",
+      "name": "2048",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "simon-says",
+      "name": "Simon Says",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv",
+        "desktop"
+      ],
+      "status": "planned"
     }
   ]
 }
