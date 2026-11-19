@@ -2,7 +2,7 @@
   "project": "MCAI-OS",
   "meaning": "M5Stack Cardputer but AI",
   "catalogueVersion": 1,
-  "totalApps": 109,
+  "totalApps": 111,
   "notes": [
     "MLC is the exact media-player name.",
     "App names are not prefixed with AIR.",
@@ -1088,6 +1088,36 @@
         "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/tap-counter/app.json",
         "sha256": "1979ca3f5f9f2558a92753dcba0156e7b82d9186163f90b51f6b992451a03d97",
         "sizeBytes": 196
+      }
+    },
+    {
+      "id": "score-counter",
+      "name": "Score Counter",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "available",
+      "package": {
+        "format": "mcai-app-v1",
+        "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/score-counter/app.json",
+        "sha256": "bfb686d7f9f0dbad119a14e3b583fb7f04deb884ffa530d659341e8e3b731951",
+        "sizeBytes": 208
+      }
+    },
+    {
+      "id": "rep-counter",
+      "name": "Rep Counter",
+      "category": "Device tools",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "available",
+      "package": {
+        "format": "mcai-app-v1",
+        "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/rep-counter/app.json",
+        "sha256": "e9efc0316d185c57721556165b090aed2ba4fd79812b4eb6393a1a66b2537397",
+        "sizeBytes": 202
       }
     }
   ]
