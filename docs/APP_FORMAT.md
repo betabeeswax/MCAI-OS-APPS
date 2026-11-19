@@ -30,6 +30,7 @@ The first Cardputer runtime is intentionally declarative: packages contain data,
 - A title and short instruction line.
 - An integer value with a bounded initial value.
 - A bounded increment action triggered by Enter.
+- The optional `ui.game` values `dice`, `coin` and `lucky-seven`, which enable the built-in Dice Roller, Coin Flip and Lucky Seven game actions.
 - Backspace to return to the App Store.
 
 The runtime validates the format, app ID, target, required fields and numeric limits. Unknown formats and targets are rejected. Apps cannot directly access hardware, files, network, memory or other apps.
@@ -55,7 +56,7 @@ Do not set an app to `available` until its package exists, its hash matches and 
 6. Save to `/sdcard/MCAI-OS/apps/<id>.json`.
 7. Parse and validate again when launching.
 
-The current Cardputer runtime stores packages on microSD and only executes the built-in declarative operations listed above. It does not run downloaded native binaries.
+The current Cardputer runtime stores packages on microSD and only executes the built-in declarative operations and game actions listed above. It does not run downloaded native binaries.
 
 ## Security and compatibility
 
