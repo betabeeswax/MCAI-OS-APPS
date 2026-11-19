@@ -1,0 +1,1 @@
+{"format":"mcai-app-v1","id":"score-counter","name":"Score Counter","version":"1.0.0","target":"cardputer-adv","ui":{"title":"Score Counter","subtitle":"Press ENTER to add a point","initial":0,"increment":1}}
