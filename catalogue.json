@@ -1,6 +1,6 @@
 {
-  "project": "CMAIR-OS",
-  "meaning": "Cardputer MStack But AI",
+  "project": "MCAI-OS",
+  "meaning": "M5Stack Cardputer but AI",
   "catalogueVersion": 1,
   "totalApps": 109,
   "notes": [
@@ -766,10 +766,9 @@
       "name": "Stopwatch",
       "category": "Device tools",
       "targets": [
-        "cardputer-adv",
-        "desktop"
+        "cardputer-adv"
       ],
-      "status": "planned"
+      "status": "builtin"
     },
     {
       "id": "timer",
