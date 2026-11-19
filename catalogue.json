@@ -2,7 +2,7 @@
   "project": "MCAI-OS",
   "meaning": "M5Stack Cardputer but AI",
   "catalogueVersion": 1,
-  "totalApps": 111,
+  "totalApps": 114,
   "notes": [
     "MLC is the exact media-player name.",
     "App names are not prefixed with AIR.",
@@ -1118,6 +1118,51 @@
         "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/rep-counter/app.json",
         "sha256": "e9efc0316d185c57721556165b090aed2ba4fd79812b4eb6393a1a66b2537397",
         "sizeBytes": 202
+      }
+    },
+    {
+      "id": "dice-roller",
+      "name": "Dice Roller",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "available",
+      "package": {
+        "format": "mcai-app-v1",
+        "sha256": "61d2634c15a65d5df2d52ef1de1088ea0f8470697ba3b170f631da72c9646f85",
+        "sizeBytes": 211,
+        "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/dice-roller/app.json"
+      }
+    },
+    {
+      "id": "coin-flip",
+      "name": "Coin Flip",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "available",
+      "package": {
+        "format": "mcai-app-v1",
+        "sha256": "ce0927ce814e906f456df4a95a75f62075dddaf697c339c82aad15205e4f1e49",
+        "sizeBytes": 203,
+        "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/coin-flip/app.json"
+      }
+    },
+    {
+      "id": "lucky-seven",
+      "name": "Lucky Seven",
+      "category": "Games and gaming",
+      "targets": [
+        "cardputer-adv"
+      ],
+      "status": "available",
+      "package": {
+        "format": "mcai-app-v1",
+        "sha256": "74eead49ea910bb7fe8691b8038d19a88cb40f793b9cd9fd22abd48c3147f837",
+        "sizeBytes": 228,
+        "url": "https://raw.githubusercontent.com/betabeeswax/MCAI-OS-APPS/main/apps/lucky-seven/app.json"
       }
     }
   ]
