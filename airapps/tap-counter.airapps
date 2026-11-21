@@ -1,0 +1,1 @@
+{"format":"mcai-app-v1","id":"tap-counter","name":"Tap Counter","version":"1.0.0","target":"cardputer-adv","ui":{"title":"Tap Counter","subtitle":"Press ENTER to count","initial":0,"increment":1}}
