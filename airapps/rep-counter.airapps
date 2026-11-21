@@ -1,0 +1,1 @@
+{"format":"mcai-app-v1","id":"rep-counter","name":"Rep Counter","version":"1.0.0","target":"cardputer-adv","ui":{"title":"Rep Counter","subtitle":"Press ENTER after each rep","initial":0,"increment":1}}
