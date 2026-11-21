@@ -1,0 +1,1 @@
+{"format":"mcai-app-v1","id":"dice-roller","name":"Dice Roller","version":"1.0.0","target":"cardputer-adv","ui":{"title":"Dice Roller","subtitle":"Roll a six-sided dice","initial":0,"increment":1,"game":"dice"}}
