@@ -1,0 +1,1 @@
+{"format":"mcai-app-v1","id":"lucky-seven","name":"Lucky Seven","version":"1.0.0","target":"cardputer-adv","ui":{"title":"Lucky Seven","subtitle":"Pick a number from zero to nine","initial":0,"increment":1,"game":"lucky-seven"}}
